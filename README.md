@@ -33,3 +33,14 @@ This GUI application allows users to draw handwritten digits and recognize them 
 ##### Prediction: Button to trigger digit recognition on the drawn content.
 ##### Clear Canvas: Button to clear the drawing area and reset the application.
 ##### Result Display: Label to show the recognized digits and any bounding boxes drawn around detected digits.
+
+
+## File Structure:
+### Handwritten Digit Recognition.ipynb:
+    file containing code for the both models CNN and Random Forest
+### CNN.py:
+    Contains GUI code that makes use of saved CNN model named "cnn_model_best.keras"
+### Random Forest.py:
+    Contains GUI code that makes use of saved CNN model named "random_forest_model.pkl" and "scaler.pkl"
+### requirements.txt:
+    contains requirements for the project to work
