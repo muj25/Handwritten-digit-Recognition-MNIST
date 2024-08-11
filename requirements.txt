@@ -1,0 +1,10 @@
+numpy
+matplotlib
+opencv-python
+tensorflow
+scikit-learn
+pillow
+random
+joblib
+tkinter
+customtkinter
