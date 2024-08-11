@@ -36,11 +36,40 @@ This GUI application allows users to draw handwritten digits and recognize them 
 
 
 ## File Structure:
-### Handwritten Digit Recognition.ipynb:
+#### Handwritten Digit Recognition.ipynb:
 file containing code for the both models CNN and Random Forest
-### CNN.py:
+#### CNN.py:
 Contains GUI code that makes use of saved CNN model named "cnn_model_best.keras"
-### Random Forest.py:
+#### Random Forest.py:
 Contains GUI code that makes use of saved CNN model named "random_forest_model.pkl" and "scaler.pkl"
-### requirements.txt:
+#### requirements.txt:
 Contains requirements for the project to work
+#### Images:
+this folder contains images related to CNN and random forest model
+#### model.json:
+
+
+## Images:
+### Number of Digits in dataset:
+![digits](https://github.com/user-attachments/assets/7ade4000-5597-4761-b925-b51caee7969f)
+
+### CNN model summary:
+![model summary](https://github.com/user-attachments/assets/a2af9566-2411-45e8-baf2-801551e54822)
+
+### CNN model accuracy:
+![model accracy](https://github.com/user-attachments/assets/913bffad-df84-4771-91e9-30edea751b03)
+
+### CNN confusion matrix:
+![confusion matrix](https://github.com/user-attachments/assets/99da9322-5222-4f04-a5e5-356ea61a46d9)
+
+### Random Forest confusion matrix:
+![random forest confusion matrix](https://github.com/user-attachments/assets/181fd2d7-3c5f-491c-beb3-48a66309cc82)
+
+
+
+## R2 Score of CNN: 
+CNN R2 Score: 0.9856294362496771
+
+## R2 Score of Random Forest:
+Random Forest R2 Score: 0.9252611427192754
+
