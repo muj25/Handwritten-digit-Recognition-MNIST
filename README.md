@@ -28,8 +28,8 @@ The Random Forest model and scaler are saved using joblib.
 ### Handwritten Digit Recognition GUI
 This GUI application allows users to draw handwritten digits and recognize them using a pre-trained Convolutional Neural Network (CNN). Built with tkinter and customtkinter, the application provides an interactive interface for digit recognition.
 
-Features
-Drawing Canvas: A large drawing area where users can draw digits.
-Prediction: Button to trigger digit recognition on the drawn content.
-Clear Canvas: Button to clear the drawing area and reset the application.
-Result Display: Label to show the recognized digits and any bounding boxes drawn around detected digits.
+#### Features
+##### Drawing Canvas: A large drawing area where users can draw digits.
+##### Prediction: Button to trigger digit recognition on the drawn content.
+##### Clear Canvas: Button to clear the drawing area and reset the application.
+##### Result Display: Label to show the recognized digits and any bounding boxes drawn around detected digits.
